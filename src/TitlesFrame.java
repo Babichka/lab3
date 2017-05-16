@@ -2,11 +2,18 @@
 /*    */ 
 /*    */ public class TitlesFrame extends JFrame
 /*    */ {
+           /**
+            Создаёт объект экземпляр TitlesFrame.
+            Вызывает инициализацию UI
+           */
 /*    */   public TitlesFrame()
 /*    */   {
 /*  7 */     initUI();
 /*    */   }
 /*    */   
+           /**
+            Инициализирует интерфейс
+           */
 /*    */   private void initUI()
 /*    */   {
 /* 12 */     setTitle("Кривые фигуры");
@@ -16,6 +23,9 @@
 /* 16 */     setLocationRelativeTo(null);
 /*    */   }
 /*    */   
+           /**
+            Точка входа в приложение
+           */
 /*    */   public static void main(String[] args)
 /*    */   {
 /* 21 */     javax.swing.SwingUtilities.invokeLater(new Runnable()

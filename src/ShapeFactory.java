@@ -9,6 +9,11 @@
 /*  9 */   public int width = 25;
 /* 10 */   public int height = 25;
 /*    */   
+           /**
+            Cоздаёт объект соответствующий фигуре.
+
+            @param shape_type Тип отображаемой фигуры
+           */
 /*    */   public ShapeFactory(int shape_type) {
 /* 13 */     this.stroke = new java.awt.BasicStroke(3.0F);
 /* 14 */     switch (3) {
@@ -58,6 +63,10 @@
 /*    */     }
 /*    */   }
 /*    */   
+           /**
+            Создаёт объект соответствующий входными параметрами
+            @return Объект типа java.awt.Shape
+            */
 /*    */   private static java.awt.Shape createStar(int arms, Point center, double rOuter, double rInner)
 /*    */   {
 /* 63 */     double angle = 3.141592653589793D / arms;

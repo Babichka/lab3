@@ -12,6 +12,12 @@
 /* 12 */   private int start_angle = 0;
 /*    */   private int shape;
 /*    */   
+           /**
+            Создаёт объект экземпляр TitlesPanel.
+
+            @param _shape Параметр указывающий тип объекта
+            @return Экземпляр класса TitlesPanel
+           */
 /*    */   public TitlesPanel(int _shape) {
 /* 16 */     this.is_done = true;
 /* 17 */     this.shape = _shape;
@@ -57,6 +63,10 @@
 /* 57 */     this.is_done = true;
 /*    */   }
 /*    */   
+           /**
+            Отрисовывает объект
+            @param g Параметр содержащий отображаемый объект
+           */
 /*    */   public void paintComponent(Graphics g)
 /*    */   {
 /* 62 */     super.paintComponent(g);
