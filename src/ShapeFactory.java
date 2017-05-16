@@ -11,12 +11,12 @@
 /*    */   
 /*    */   public ShapeFactory(int shape_type) {
 /* 13 */     this.stroke = new java.awt.BasicStroke(3.0F);
-/* 14 */     switch (shape_type / 10) {
+/* 14 */     switch (3) {
 /*    */     case 1: 
 /* 16 */       this.shape = createStar(3, new Point(0, 0), this.width / 2.0D, this.width / 2.0D);
 /* 17 */       break;
 /*    */     case 3: 
-/* 19 */       this.shape = createStar(5, new Point(0, 0), this.width / 2.0D, this.width / 4.0D);
+/* 19 */       this.shape = createStar(6, new Point(0, 0), this.width / 2.0D, this.width / 4.0D);
 /* 20 */       break;
 /*    */     case 5: 
 /* 22 */       this.shape = new java.awt.geom.Rectangle2D.Double(-this.width / 2.0D, -this.height / 2.0D, this.width, this.height);
@@ -77,7 +77,7 @@
 /*    */ }
 
 
-/* Location:              /home/shok/Desktop/support/ex_2_decompile/Olesya/lab3/lab3.jar!/ShapeFactory.class
+/* Location:              /home/shok/Desktop/support/ex_2_decompile/Pavel/TechnicalSolutionSupport_ex2/lab3.jar!/ShapeFactory.class
  * Java compiler version: 7 (51.0)
  * JD-Core Version:       0.7.1
  */

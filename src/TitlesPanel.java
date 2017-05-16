@@ -65,7 +65,7 @@
 /*    */ }
 
 
-/* Location:              /home/shok/Desktop/support/ex_2_decompile/Olesya/lab3/lab3.jar!/TitlesPanel.class
+/* Location:              /home/shok/Desktop/support/ex_2_decompile/Pavel/TechnicalSolutionSupport_ex2/lab3.jar!/TitlesPanel.class
  * Java compiler version: 7 (51.0)
  * JD-Core Version:       0.7.1
  */
